@@ -13,8 +13,8 @@ app.get("/", (req, res) => {
 });
 
 app.get('/views', (req, res) => {
-    res.render("login.ejs");
-});
+    res.render('login.ejs'); 
+  });
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
